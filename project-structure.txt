@@ -1,0 +1,55 @@
+Version 1
+project-root/
+  ├── data/
+  │   └── locations.json
+  ├── templates/
+  │   └── landing-page.html
+  ├── public/
+  │   └── styles.css
+  ├── generate-pages.js
+  ├── server.js
+  └── package.json
+
+
+
+version 2
+project-root/
+  ├── data/
+  │   └── locations.csv
+  ├── templates/
+  │   └── landing-page.html
+  ├── public/
+  │   └── styles.css
+  ├── generate-pages.js
+  ├── server.js
+  └── package.json
+
+
+Version 3
+project-root/
+  ├── data/
+  │   └── locations.json
+  ├── templates/
+  │   └── landing-page.html
+  ├── public/
+  │   └── styles.css
+  ├── generate-pages.js
+  ├── server.js
+  └── package.json
+
+
+version 4
+project-root/
+  ├── data/
+  │   └── locations.csv
+  ├── templates/
+  │   └── landing-page.html
+  ├── public/
+  │   └── styles.css
+  ├── src/
+  │   ├── generatePages.js
+  │   ├── csvUtils.js
+  │   └── validation.js
+  ├── index.js
+  ├── server.js
+  └── package.json

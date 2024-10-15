@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{company_name}} in {{city}}, {{state}}</title>
+    <meta name="description" content="Visit {{company_name}} in {{city}}, {{state}}. Find our address, hours, and services at our {{city}} location.">
+    <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>{{company_name}} - {{city}}, {{state}}</h1>
+    </header>
+    <main>
+        <section id="location-info">
+            <h2>Our {{city}} Location</h2>
+            <p>Address: {{address}}</p>
+            <p>Phone: {{phone}}</p>
+            <p>Hours: {{hours}}</p>
+        </section>
+        <section id="services">
+            <h2>Services Offered</h2>
+            <ul>
+                {{#each services}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About {{company_name}} in {{city}}</h2>
+            <p>{{local_description}}</p>
+        </section>
+        <section id="cta">
+            <h2>Visit Us Today</h2>
+            <p>Experience the {{company_name}} difference in {{city}}. Contact us or stop by our location today!</p>
+            <a href="{{booking_url}}" class="cta-button">Location</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 {{company_name}}. All rights reserved.</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
